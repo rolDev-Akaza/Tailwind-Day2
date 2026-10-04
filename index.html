@@ -7,50 +7,46 @@
   </head>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <body>
-    <nav class="flex items-center gap-10 justify-center pt-10">
+    <nav
+      class="flex items-center gap-10 justify-center p-3 bg-slate-200 w-100 mx-auto mt-10 rounded-full text-sm shadow-lg shadow-slate-500/50 w-[90%] md:w-100"
+    >
       <a href="">Home</a><a href="">Services</a><a href="">Products</a
       ><a href="">Contact Us</a>
     </nav>
-    <section class="h-screen flex items-center justify-center flex-col">
-      <img
-        src="https://scontent.fcrk2-1.fna.fbcdn.net/v/t39.30808-6/825279714_122098022829492548_5362763592411503973_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s1000x1000&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Pu1EwyyqyhoQ7kNvwGYGZQ4&_nc_oc=AdrSFAvz8W_vMJpRFvuFjKc3dWJXTByP6o6k3-IZvD_syXerTIQAjrJw4O6wQuEuOLg&_nc_zt=23&_nc_ht=scontent.fcrk2-1.fna&_nc_gid=Gi9I_1DoXB_U-CGviO-p3A&_nc_ss=7a2a8&oh=00_AQNRbg6NuG39MRjYLTQ0v_Z7fSgiOWEbxFKFw9sD3K4H2A&oe=6AC2F4E6"
-        alt="RolDev"
-        class="w-20 h-20 border rounded-full"
-      />
-      <h1 class="text-4xl mt-5 mb-4 font-bold">Hello!</h1>
-      <p class="font-medium mt-3">I'm RolDev</p>
-      <p class="w-150 text-justify mt-2">
-        Don't be scared to start again; be scared to be stuck in the same cycle
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, rerum
-        animi? Eligendi, ipsa exercitationem nulla doloremque porro ipsam minim
-      </p>
-      <button
-        class="bg-black text-white mt-5 pt-2 pb-2 pr-3 pl-3 rounded-full text-sm hover:text-black hover:bg-slate-300"
-      >
-        <a href="">Let's Learn</a>
-      </button>
-    </section>
-    <section class="flex flex-row items-center justify-center gap-10">
-      <div>
-        <img
-          src="https://static.vecteezy.com/system/resources/previews/067/565/433/non_2x/tailwind-css-logo-rounded-free-png.png"
-          alt="tailwindLogo"
-          class="w-100 h-100"
-        />
-      </div>
-      <div class="max-w-lg">
-        <h1 class="text-2xl font-bold mb-5">Tailwind</h1>
-
-        <p>
-          Tailwind CSS is an open-source, utility-first CSS framework used to
-          build custom user interfaces directly inside your HTML or component
-          markup. Unlike traditional CSS frameworks like Bootstrap—which provide
-          pre-designed components like buttons, cards, or navbars—Tailwind
-          provides low-level "utility classes". These classes correspond
-          directly to individual CSS properties (such as padding, margins,
-          colors, and flexbox configurations). You mix and match these building
-          blocks directly within your HTML code.
+    <section
+      class="min-h-screen flex flex-col md:flex-row items-center justify-center gap-10 max-w-6xl mx-auto px-6 py-10"
+    >
+      <img src="./img/Hero Section.jpg" alt="" class="w-100 rounded-full" />
+      <div class="flex flex-col">
+        <h1 class="font-bold text-5xl mb-10">Lorem</h1>
+        <p class="text-justify">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam
+          nam suscipit iste corrupti sint hic incidunt commodi soluta modi
+          deserunt doloribus consequatur repudiandae delectus quaerat
+          dignissimos consequuntur, volup1tatibus tenetur!
         </p>
+        <button class="mt-10 bg-slate-200 w-25 p-2 rounded-full text-sm">
+          <a href="">Get Started</a>
+        </button>
+      </div>
+    </section>
+    <section
+      class="min-h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto px-6 py-10"
+    >
+      <h1 class="text-7xl font-bold col-span-full mx-auto">
+        GET YOUR SHIRT NOW!
+      </h1>
+
+      <div>
+        <img src="./img/Product 1.png" alt="" class="w-full" />
+      </div>
+
+      <div>
+        <img src="./img/Product 2.png" alt="" class="w-full" />
+      </div>
+
+      <div>
+        <img src="./img/Product 3.png" alt="" class="w-full" />
       </div>
     </section>
     <footer class="text-center mb-10 mt-10">
